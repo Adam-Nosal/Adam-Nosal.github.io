@@ -1,0 +1,15 @@
+
+<table border="0" style=" width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;"><img src="/assets/images/me.png" width="100%"  /></td>
+<td style="width: 50%;">
+    {% if site.data.startPage.Welcome && site.data.startPage.Content%}
+    <h1>{{site.data.startPage.Welcome }}</h1><br>
+    <p>{{site.data.startPage.Content }}</p>
+    
+    {% endif%}
+</td>
+</tr>
+</tbody>
+</table>
